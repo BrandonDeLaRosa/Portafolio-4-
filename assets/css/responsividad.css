@@ -1,0 +1,15 @@
+@media screen and (min-width: 900px){
+    .nav--menu{
+        display: flex; 
+    }
+    .nav--menu.visible{
+        display: none;
+       
+    }
+
+    body{
+        background-color: aqua;
+    }
+}
+
+

@@ -1,0 +1,1195 @@
+
+/* @import url(./responsividad.css); */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Montserrat:wght@500;600&family=Red+Hat+Display:wght@400;500;700&display=swap');
+
+:root{
+    /* --blue: hsl(232, 88%, 6%); */
+    --blue: hsl(233, 87%, 6%);
+    /* --grayBlue: hsl(233, 19%, 17%); */
+    --grayBlue: hsl(235, 29%, 15%);
+    --lightGray: hsl(34, 7%, 81%);
+    --logoGray: hsl(30, 33%, 95%);
+    --cyan: hsl(186, 57%, 47%);
+    --White: hsl(0, 0%, 100%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+body{
+    background-color: var(--blue);
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.nav--menu.visible{
+    display: flex;
+    /* que el menu se despliegue de izq a der o al reves */
+}
+
+/* .menu--icon.visible{
+} */
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav--menu{
+    /* background-color: aqua; */
+    list-style: none;
+    display: none;
+    /* justify-content: flex-end; */
+    line-height: 100px;
+    width:100%
+    
+}
+
+.menu--icon{
+    /* background-color: bisque; */
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    /* left: 32rem; */
+}
+
+/* 
+.menu--icon:hover{ 
+    transform: scale();
+} */
+
+/* a:hover{
+   border-bottom: 2px solid white;
+} */
+
+
+.nav--items{
+    padding: 0.5rem 1rem;
+}
+
+a{
+    font-size: 10px;
+    color: var(--White);
+    text-decoration: none;
+}
+
+.home{
+    color: var(--cyan);
+}
+
+main{
+    margin-top: 3rem;
+}
+
+.contenedor1{
+    /* background-color: bisque; */
+ 
+    height: 300px;
+    position: relative;
+    max-width: 576px;
+    min-width: 576px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.seccion1{
+    /* background-color: brown; */
+    color: var(--White);
+    position: absolute;
+    left: 20px;
+    margin-top: 15px;
+    z-index: 30;
+}
+
+.soy{
+    font-size: 32px;
+    margin-left: -158px;
+}
+
+hr{
+    width: 85%;
+    height: 2px;
+    border: none;
+    margin-top: 8px;
+    margin-bottom: -6px;
+    background-color: var(--White);
+
+}
+
+.brandon{
+    color: var(--cyan);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.prg1{
+    font-size: 18px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-top:15px;
+    margin-left: 3px;
+    text-align: start;
+}
+
+.seccion2{
+    position: absolute;
+    right: 61px;
+    margin-top: 15px;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    padding: rem 1.5rem;
+    z-index: 30;
+    text-align: start;
+}
+
+
+.años{
+    color: var(--cyan);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.experiencia{
+    color: var(--White);
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.logos--inTw{
+    display: flex;
+    position: absolute;
+    top: 67px;
+    right: 37px;
+    width: 100%;
+}
+
+.inTw{
+    height: 24px;
+    width: 24px;
+    margin: 10px 8px 5px 35px;
+    background-color: var(--White);  
+    padding: 0.2rem;
+    border-radius: 100%;
+}
+
+.seccion3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.brandonpic{
+    position: relative;
+    background-color: var(--grayBlue);
+    border-radius: 100%;
+    padding-top: 10px;
+    margin-top: 15px;
+    width: 250px;
+    height: 260px;
+    z-index: 1;
+}
+
+.gas{
+    background-color: var(--lightGray);
+    width: 65px;
+    height: 40px;
+    margin: 1rem 1.3rem;
+    padding: 3px 1rem;
+    border-radius: 4px;
+}
+
+.GoAmSp{
+    position: relative;
+    bottom: 20px;
+    background-color: var(--grayBlue);
+    padding:0rem 2rem;
+    border-radius: 3px;
+    z-index: 30;
+    width: 450px;
+}
+
+.contenedor2{
+    position: relative;
+    top: 5rem;
+    color: var(--White);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 576px;
+    min-width: 576px;
+    margin: 0 auto;
+}
+
+.descripcion{
+    color: var(--cyan);
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.pDescription{
+    font-size: 13px;
+    width: 70%;
+    text-align:  center;
+    max-width: 450px;
+}
+
+.contenedor3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 130px;
+    max-width: 576px;
+    min-width: 320px;
+    margin: 0 auto;
+    /* overflow-x:auto ; */
+    /* left: 100px; */
+}
+
+.logos{
+   display: flex; 
+   flex-direction: row; 
+   column-gap: 1rem;
+   margin: 0 auto;
+}
+
+/* =====================================  PENCIL ============================ */
+.pencil{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--White);
+    width: 190px;
+    height: 250px;
+    color: white;
+}
+
+.vector{
+  width: 192px;
+  height: 110px;
+  position: absolute;
+  top: 37px;  
+}
+
+.pencil-logo{
+    width: 90px;
+    height: 90px; 
+    position: absolute;
+    top: 67px;
+} 
+ 
+.header-pencil{
+    position: relative;
+    text-align: center;
+    top: 125px;
+    left: -2px;
+    color: var(--grayBlue);
+    font-weight: bolder;
+    font-size: 18px;
+    
+}
+
+.text-pencil{
+    position: relative;
+    text-align: center;
+    top: 124px;
+    font-size: 10px;
+    color: var(--lightGray);
+    padding: 20px;
+
+}  
+
+/* ========================================= SPEAKER ============================== */
+
+.speaker{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--White);
+    width: 190px;
+    height: 250px;
+    color: white;
+}
+
+.vector-speaker{
+  width: 192px;
+  height: 110px;
+  position: absolute;
+  top: 37px;  
+}
+
+.speaker-logo{
+    width: 90px;
+    height: 90px; 
+    position: absolute;
+    top: 67px;
+} 
+ 
+.header-speaker{
+    position: relative;
+    text-align: center;
+    top: 125px;
+    left: 0px;
+    color: var(--grayBlue);
+    font-weight: bolder;
+    font-size: 18px;
+    
+}
+
+.text-speaker{
+    position: relative;
+    text-align: center;
+    top: 124px;
+    font-size: 10px;
+    color: var(--lightGray);
+    padding: 20px;
+
+} 
+
+/* ====================================LUPA ========================== */
+
+.lupa{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--White);
+    width: 190px;
+    height: 250px;
+    color: white;
+}
+
+.vector-lupa{
+  width: 192px;
+  height: 110px;
+  position: absolute;
+  top: 37px;  
+}
+
+.lupa-logo{
+    width: 90px;
+    height: 90px; 
+    position: absolute;
+    top: 67px;
+} 
+ 
+.header-lupa{
+    position: relative;
+    text-align: center;
+    top: 125px;
+    left: 0;
+    color: var(--grayBlue);
+    font-weight: bolder;
+    font-size: 18px;
+    
+}
+
+.text-lupa{
+    position: relative;
+    text-align: center;
+    top: 124px;
+    font-size: 10px;
+    color: var(--lightGray);
+    padding: 20px;
+
+} 
+
+
+h3{
+    color: var(--cyan);
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+
+.contenedor4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 11rem;
+    max-width: 576px;
+    min-width: 576px;
+    margin: 0 auto;
+}
+
+.habilidades-container{
+    /* background-color: aqua; */
+    width: 100%;
+    
+    padding: 1rem 6rem;
+}
+
+.text-hab{
+    color: var(--cyan);
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.barra{
+    width:100%;
+    height: 10px;
+    background-color: var( --White);
+    border-radius: 10px;
+    
+}
+
+.progreso{
+    position: absolute;
+    right: 180px;
+}
+
+.porcentaje{
+    width: 80%;
+    background-color: var(--cyan);
+    height: 10px;
+    border-radius: 10px;
+}
+
+.porcentajeN{
+    width: 90%;
+    background-color: var(--cyan);
+    height: 10px;
+    border-radius: 10px;
+}
+
+
+.progresoN{
+    position: absolute;
+    right: 130px;
+}
+
+.contenedor5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 12rem;
+    max-width: 576px;
+    min-width: 576px;
+    margin: 0 auto;
+}
+
+.carrusel{
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+    width: 90%;
+    overflow-x: auto;
+}
+
+.img-carrusel{
+    width: 250px;
+    height: 220px;
+}
+
+.contenedor6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 14rem;
+    margin-bottom: 1rem;
+    max-width: 576px;
+    min-width: 576px;
+    margin: 0 auto;
+}
+
+
+.contacto-logos{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 100%;
+    /* height: 300px; */
+}
+
+.phone{
+    background-color: var(--White);
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 93px;
+    left: 150px;
+
+}    
+
+.phone-vector{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: -7px;
+    z-index: 0;
+}
+
+.phone-logo{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 39px;
+    left: 45px;
+}
+
+.phone-header{
+    position: absolute;
+    font-size: 15px;
+    font-weight: bolder;
+    top: 89px;
+    left: 16px;
+    color: var(--grayBlue);
+}
+
+.phone-text{
+    position: absolute;
+    font-size: 14px;
+    font-weight: bold;
+    top: 117px;
+    left: 37px;
+    color: var(--lightGray);
+}
+
+
+/* ==============MAIL================== */
+
+.mail{
+    background-color: var(--White);
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 318px;
+    left: 281px;
+    top: 287px;
+}
+
+.mail-vector{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: -7px;
+    z-index: 0;
+}
+
+.mail-logo{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 42px;
+    left: 49px;
+}
+
+.mail-header{
+    position: absolute;
+    font-size: 15px;
+    font-weight: bolder;
+    top: 89px;
+    left: 52px;
+    color: var(--grayBlue);
+}
+
+.mail-text{
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+    top: 115px;
+    left: 9px;
+    color: var(--lightGray);
+}
+
+
+footer{
+    background-color: var(--grayBlue);
+    position: relative;
+    bottom: 1;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    line-height: 4.5rem;
+    color: var(--cyan);
+    top: 49rem;
+    font-size: 9px;
+    min-width: 605px;
+    margin: 0 auto;
+}
+
+.footer-img{
+    position: relative;
+    top: 5px;
+    width: 12px;
+    padding: 1px;
+}
+
+
+/* ========================RESPONSIVIDAD================================ */
+/* El menu se distorciona a partir de los 527px hacia abajo */
+
+@media screen and (min-width: 900px){
+    .nav--menu{
+        display: flex; 
+        justify-content: flex-end;
+        padding: 3rem;
+    }
+
+    /* .nav--menu.visible{
+        display: none;
+       
+    } */
+
+    .menu--icon{
+        display: none;
+    }
+
+    a{
+        font-size: 15px;
+        margin: 0 0.5rem 0 0.5rem;
+    }
+
+    .contenedor1{
+        /* background-color: bisque; */
+     
+        height: 300px;
+        position: relative;
+        max-width: 576px;
+        min-width: 576px;
+    }
+    
+    
+    .seccion1{
+        left: -133px;
+        top: -40px;
+    }
+    .soy{
+        font-size: 50px;
+        margin-left: -258px;
+    }
+    
+    hr{
+        width: 85%;
+        height: 2px;
+
+        position: absolute;
+        top: 60px;
+        left: 8px;
+    }
+    
+    .brandon{
+        color: var(--cyan);
+        font-size: 80px;
+        font-weight: bold;
+    }
+    
+    .prg1{
+        font-size: 32px;
+        position: absolute;
+        top: 146px;
+        text-align: initial;
+        left: 5px;
+    }
+    
+    .seccion2{
+        position: absolute;
+        right: -70px;
+        top: -40px;
+        text-align: start;
+    }
+    
+    
+    .años{
+        font-size: 50px;
+        
+    }
+    
+    .experiencia{
+        font-size: 32px;
+    }
+    
+    .logos--inTw{
+        top: 127px;
+        right: 71px;
+    }
+
+    .inTw{
+        height: 34px;
+        width: 34px;
+        margin: 20px -7px 15px 67px;
+    }
+    
+    .seccion3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .brandonpic{
+        margin-top: -35px;
+        width: 450px;
+        height: 460px;
+    }
+    
+    .gas{
+        width: 174px;
+        height: 69px;
+        margin: 1rem 1.5rem;
+    }
+    
+    .GoAmSp{
+        width: 50rem;
+    }
+
+    .contenedor2{
+        position: relative;
+        top: 18rem;
+        width: 900px;
+        max-width: 900px;
+        min-width: 900px;
+        margin: 0 auto;
+    }
+    
+
+    h3{
+        font-size: 45px;
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+    
+    .pDescription{
+        font-size: 18px;
+        width: 70%;
+        text-align:  center;
+        max-width: 800px;
+    }
+    
+    .contenedor3{
+        top: 22rem;
+        max-width: 900px;
+        min-width: 900px;
+        margin: 0 auto;
+    }
+    
+    .logos{
+        position: absolute;
+        top: 83px;
+
+    }
+    
+    .pencil{
+        width: 220px;
+        height: 295px;
+    }
+
+    .vector {
+        width: 247px;
+        height: 125px;
+        top: -1px;
+    }
+
+    .pencil-logo {
+        width: 110px;
+        height: 110px;
+        top: 23px;
+    }
+     
+    .header-pencil{
+        top: 132px;
+        left: -2px;
+        font-size: 32px;
+    
+   }
+
+    .text-pencil{
+        top: 135px;
+        font-size: 18px;
+         padding: 4px;
+   }  
+
+   /* ================== Spreaker========= */
+
+
+    .speaker{
+        width: 220px;
+        height: 295px;
+    }
+
+    .vector-speaker {
+        width: 247px;
+        height: 125px;
+        top: -1px;
+    }
+
+    .speaker-logo {
+        width: 110px;
+        height: 110px;
+        top: 23px;
+    }
+     
+    .header-speaker{
+        top: 132px;
+        left: -2px;
+        font-size: 32px;
+    
+   }
+
+    .text-speaker{
+        top: 135px;
+        font-size: 18px;
+         padding: 15px;
+   } 
+   
+   /* ======================LUPa ==================== */
+
+       .lupa{
+        width: 220px;
+        height: 295px;
+    }
+
+    .vector-lupa {
+        width: 247px;
+        height: 125px;
+        top: -1px;
+    }
+
+    .lupa-logo {
+        width: 110px;
+        height: 110px;
+        top: 23px;
+    }
+     
+    .header-lupa{
+        top: 132px;
+        left: -2px;
+        font-size: 32px;
+    
+   }
+
+    .text-lupa{
+        top: 135px;
+        font-size: 18px;
+         padding: 15px;
+   } 
+   
+
+  .contenedor4 {
+    top: 47rem;
+    max-width: 900px;
+    min-width: 576px;
+    font-size: 25px;
+ } 
+
+ .barra{
+    height: 15px;
+}
+
+.porcentaje{
+    height: 15px;
+   
+}
+
+.porcentajeN{
+    height: 15px;
+}
+
+.contenedor5 {
+    top: 52rem;
+    max-width: 900px;
+    min-width: 576px;
+    margin: 0 auto;
+}
+
+.img-carrusel {
+    width: 350px;
+    height: 320px;
+}
+
+.contenedor6 {
+    top: 57rem;
+}
+
+.phone{
+    width: 250px;
+    height: 250px;
+    top: 100px;
+    left: -26px;
+}    
+
+.phone-vector{
+    width: 250px;
+    height: 200px;
+    top: -29px;
+}
+
+.phone-logo{
+    width: 100px;
+    height: 100px;
+    top: 50px;
+    left: 64px;
+}
+
+.phone-header{
+    font-size: 23px;
+    top: 165px;
+    left: 32px;
+}
+
+.phone-text{
+    font-size: 18px;
+    top: 205px;
+    left: 74px;
+}
+
+
+/* ==============MAIL================== */
+
+.mail{
+    width: 250px;
+    height: 250px;
+    left: 318px;
+    left: 350px;
+    top: 354px;
+}
+
+.mail-vector{
+    width: 250px;
+    height: 200px;
+    top: -29px;
+}
+
+.mail-logo{
+    width: 100px;
+    height: 100px;
+    top: 55px;
+    left: 73px;
+
+}
+
+.mail-header{
+    font-size: 23px;
+    top: 163px;
+    left: 89px;
+}
+
+.mail-text{
+    font-size: 18px;
+    top: 200px;
+    left: 26px;
+}
+
+footer{
+    height: 100px;
+    line-height: 7.5rem;
+    top: 60rem;
+    font-size: 18px; 
+    display: table;
+    top: 107rem;
+}
+
+
+.footer-img{
+    width: 24px;
+    padding: 3px;
+}
+
+
+}
+
+/* ========================RESPONSIVIDAD================================ */
+
+
+@media screen and (min-width: 1200px){
+    .nav--menu{
+        padding: 3rem;
+    }
+
+    a{
+        font-size:22px;
+    }
+
+    .contenedor1{
+        /* background-color: bisque; */
+     
+        height: 300px;
+        position: relative;
+        max-width: 576px;
+        min-width: 576px;
+    }
+    
+    
+    .seccion1{
+        left: -240px;
+    }
+    
+    .seccion2{
+        right: -160px;
+    }
+    
+    .brandonpic{
+        margin-top: -25px;
+        width: 550px;
+        height: 560px;
+    }
+    
+    .gas{
+        width: 210px;
+        height: 98px;
+        margin: 1.5rem 2rem;
+    }
+    
+    .GoAmSp{
+        width: 70rem;
+    }
+
+    .contenedor2{
+        top: 27rem;
+        width: 1200px;
+        max-width: 1200px;
+        min-width: 900px;
+    }
+    
+    .contenedor3{
+        top: 32rem;
+        max-width: 1200px;
+        min-width: 900px;
+    }
+    
+    .logos{
+        top: 83px;
+        width: 80%;
+        justify-content: space-evenly;
+    }
+    
+
+  .contenedor4 {
+    top: 57rem;
+    max-width: 1200px;
+    min-width: 576px;
+ } 
+
+ .barra{
+    height: 20px;
+}
+
+.porcentaje{
+    height: 20px;
+   
+}
+
+.porcentajeN{
+    height: 20px;
+}
+
+.contenedor5 {
+    top: 62rem;
+    max-width: 1200px;
+    min-width: 576px;
+}
+
+.img-carrusel {
+    width: 450px;
+    height: 420px;
+}
+
+.contenedor6 {
+    top: 67rem;
+}
+
+.phone{
+    width: 350px;
+    height: 350px;
+    top: 100px;
+    left: -155px;
+}    
+
+.phone-vector{
+    width: 350px;
+    height: 300px;
+    top: -52px;
+}
+
+.phone-logo{
+    width: 150px;
+    height: 150px;
+    top: 60px;
+    left: 82px;
+}
+
+.phone-header{
+    font-size: 26px;
+    top: 243px;
+    left: 71px;
+}
+
+.phone-text{
+    font-size: 21px;
+    top: 290px;
+    left: 117px;
+}
+
+
+/* ==============MAIL================== */
+
+.mail{
+    width: 350px;
+    height: 350px;
+    left: 385px;
+    top: 462px;
+}
+
+.mail-vector{
+    width: 350px;
+    height: 300px;
+    top: -52px;
+}
+
+.mail-logo{
+    width: 150px;
+    height: 150px;
+    top: 67px;
+    left: 102px;
+
+}
+
+.mail-header{
+    font-size: 26px;
+    top: 243px;
+    left: 136px;
+}
+
+.mail-text{
+    font-size: 21px;
+    top: 290px;
+    left: 55px;
+}
+
+footer{
+    height: 100px;
+    line-height: 7.5rem;
+    top: 70rem;
+    font-size: 18px; 
+    display: table;
+    top:133rem
+}
+
+
+.footer-img{
+    width: 24px;
+    padding: 3px;
+}
+
+
+}
